@@ -1,0 +1,11 @@
+###Register Route
+
+Send Request
+POST http://localhost:8080/upload/ HTTP/1.1
+Content-Type: application/json
+
+{
+    name: "Ankit Singh",
+    email: "ankit@gmail.com",
+    password: "ankit123"
+}
